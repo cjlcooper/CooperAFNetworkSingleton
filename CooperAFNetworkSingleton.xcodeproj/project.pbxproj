@@ -135,11 +135,10 @@
 		00D898461E78C83D002BC48F /* CooperAFNetworkSingleton */ = {
 			isa = PBXGroup;
 			children = (
+				00D898A01E78CE34002BC48F /* CooperAFNetworkSingletonDemo */,
 				00D8987A1E78C8E3002BC48F /* Library */,
 				00D8984A1E78C83D002BC48F /* AppDelegate.h */,
 				00D8984B1E78C83D002BC48F /* AppDelegate.m */,
-				00D8984D1E78C83D002BC48F /* ViewController.h */,
-				00D8984E1E78C83D002BC48F /* ViewController.m */,
 				00D898501E78C83D002BC48F /* Main.storyboard */,
 				00D898531E78C83D002BC48F /* Assets.xcassets */,
 				00D898551E78C83D002BC48F /* LaunchScreen.storyboard */,
@@ -219,6 +218,15 @@
 				00D8989D1E78C9FA002BC48F /* Reachability.m */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		00D898A01E78CE34002BC48F /* CooperAFNetworkSingletonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				00D8984D1E78C83D002BC48F /* ViewController.h */,
+				00D8984E1E78C83D002BC48F /* ViewController.m */,
+			);
+			name = CooperAFNetworkSingletonDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -608,6 +616,7 @@
 				00D898731E78C83D002BC48F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00D898741E78C83D002BC48F /* Build configuration list for PBXNativeTarget "CooperAFNetworkSingletonTests" */ = {
 			isa = XCConfigurationList;
@@ -616,6 +625,7 @@
 				00D898761E78C83D002BC48F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00D898771E78C83D002BC48F /* Build configuration list for PBXNativeTarget "CooperAFNetworkSingletonUITests" */ = {
 			isa = XCConfigurationList;
@@ -624,6 +634,7 @@
 				00D898791E78C83D002BC48F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

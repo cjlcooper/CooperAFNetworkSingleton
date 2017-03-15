@@ -88,9 +88,6 @@
     manager.requestSerializer.timeoutInterval = 15.0;//超时时间
     //  将dict中的数组转成json
     parameters = [self dealDictArray:parameters];
-    //
-    NSLog(@"%@",url);
-    NSLog(@"%@",parameters);
     //申明返回的结果是json类型
     NSString *urlStr = [url stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     [manager POST:urlStr parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject){
@@ -203,27 +200,5 @@
     
     return utfStr;
 }
-
-//setsecretkey
--(void)setSecretKeyToServer:(NSMutableDictionary *)parameters url:(NSString *)url successBlock:(SuccessBlock)successBlock failureBlock:(FailureBlock)failureBlock{
-    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    manager.requestSerializer = [AFHTTPRequestSerializer serializer];
-    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
-    //安全参数设置
-    NSDate* date = [NSDate dateWithTimeIntervalSinceNow:0];
-    NSTimeInterval dateInterval = [date timeIntervalSince1970]*1000;
-    NSString *timeString = [[NSString stringWithFormat:@"%f", dateInterval] substringToIndex:13];//时间戳
-    NSString *sortStr = [[NSString alloc] init];
-    ud = [NSUserDefaults standardUserDefaults];
-    //申明返回的结果是json类型
-    NSString *urlStr = [url stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    [manager POST:urlStr parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject){
-        successBlock(responseObject);
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error){
-        NSLog(@"Error: %@", error);
-        failureBlock([NSString stringWithFormat:@"Error: %@", error]);
-    }];
-}
-
 
 @end
