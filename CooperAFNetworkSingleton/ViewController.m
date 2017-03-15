@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NetworkSingleton.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,25 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	[self postNetworkAction];
+}
+
+//post
+- (void)postNetworkAction{
+	[[NetworkSingleton sharedManager] postDataToServer:nil url:@"" successBlock:^(id responseBody) {
+		
+	} failureBlock:^(NSString *error) {
+		
+	}];
+}
+
+//get
+- (void)getNetworkAction{
+	[[NetworkSingleton sharedManager] getDateFormServer:nil url:@"" successBlock:^(id responseBody) {
+		
+	} failureBlock:^(NSString *error) {
+		
+	}];
 }
 
 
