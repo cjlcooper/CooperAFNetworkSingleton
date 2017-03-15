@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00D898491E78C83D002BC48F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D898481E78C83D002BC48F /* main.m */; };
+		00D8984C1E78C83D002BC48F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D8984B1E78C83D002BC48F /* AppDelegate.m */; };
+		00D8984F1E78C83D002BC48F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D8984E1E78C83D002BC48F /* ViewController.m */; };
+		00D898521E78C83D002BC48F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D898501E78C83D002BC48F /* Main.storyboard */; };
+		00D898541E78C83D002BC48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D898531E78C83D002BC48F /* Assets.xcassets */; };
+		00D898571E78C83D002BC48F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D898551E78C83D002BC48F /* LaunchScreen.storyboard */; };
+		00D898621E78C83D002BC48F /* CooperAFNetworkSingletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D898611E78C83D002BC48F /* CooperAFNetworkSingletonTests.m */; };
+		00D8986D1E78C83D002BC48F /* CooperAFNetworkSingletonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D8986C1E78C83D002BC48F /* CooperAFNetworkSingletonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00D8985E1E78C83D002BC48F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00D8983C1E78C83D002BC48F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00D898431E78C83D002BC48F;
+			remoteInfo = CooperAFNetworkSingleton;
+		};
+		00D898691E78C83D002BC48F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00D8983C1E78C83D002BC48F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00D898431E78C83D002BC48F;
+			remoteInfo = CooperAFNetworkSingleton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D898441E78C83D002BC48F /* CooperAFNetworkSingleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CooperAFNetworkSingleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D898481E78C83D002BC48F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00D8984A1E78C83D002BC48F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00D8984B1E78C83D002BC48F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00D8984D1E78C83D002BC48F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00D8984E1E78C83D002BC48F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00D898511E78C83D002BC48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00D898531E78C83D002BC48F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00D898561E78C83D002BC48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00D898581E78C83D002BC48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00D8985D1E78C83D002BC48F /* CooperAFNetworkSingletonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CooperAFNetworkSingletonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D898611E78C83D002BC48F /* CooperAFNetworkSingletonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CooperAFNetworkSingletonTests.m; sourceTree = "<group>"; };
+		00D898631E78C83D002BC48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00D898681E78C83D002BC48F /* CooperAFNetworkSingletonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CooperAFNetworkSingletonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D8986C1E78C83D002BC48F /* CooperAFNetworkSingletonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CooperAFNetworkSingletonUITests.m; sourceTree = "<group>"; };
+		00D8986E1E78C83D002BC48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00D898411E78C83D002BC48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D8985A1E78C83D002BC48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D898651E78C83D002BC48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00D8983B1E78C83D002BC48F = {
+			isa = PBXGroup;
+			children = (
+				00D898461E78C83D002BC48F /* CooperAFNetworkSingleton */,
+				00D898601E78C83D002BC48F /* CooperAFNetworkSingletonTests */,
+				00D8986B1E78C83D002BC48F /* CooperAFNetworkSingletonUITests */,
+				00D898451E78C83D002BC48F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00D898451E78C83D002BC48F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00D898441E78C83D002BC48F /* CooperAFNetworkSingleton.app */,
+				00D8985D1E78C83D002BC48F /* CooperAFNetworkSingletonTests.xctest */,
+				00D898681E78C83D002BC48F /* CooperAFNetworkSingletonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00D898461E78C83D002BC48F /* CooperAFNetworkSingleton */ = {
+			isa = PBXGroup;
+			children = (
+				00D8984A1E78C83D002BC48F /* AppDelegate.h */,
+				00D8984B1E78C83D002BC48F /* AppDelegate.m */,
+				00D8984D1E78C83D002BC48F /* ViewController.h */,
+				00D8984E1E78C83D002BC48F /* ViewController.m */,
+				00D898501E78C83D002BC48F /* Main.storyboard */,
+				00D898531E78C83D002BC48F /* Assets.xcassets */,
+				00D898551E78C83D002BC48F /* LaunchScreen.storyboard */,
+				00D898581E78C83D002BC48F /* Info.plist */,
+				00D898471E78C83D002BC48F /* Supporting Files */,
+			);
+			path = CooperAFNetworkSingleton;
+			sourceTree = "<group>";
+		};
+		00D898471E78C83D002BC48F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00D898481E78C83D002BC48F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00D898601E78C83D002BC48F /* CooperAFNetworkSingletonTests */ = {
+			isa = PBXGroup;
+			children = (
+				00D898611E78C83D002BC48F /* CooperAFNetworkSingletonTests.m */,
+				00D898631E78C83D002BC48F /* Info.plist */,
+			);
+			path = CooperAFNetworkSingletonTests;
+			sourceTree = "<group>";
+		};
+		00D8986B1E78C83D002BC48F /* CooperAFNetworkSingletonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00D8986C1E78C83D002BC48F /* CooperAFNetworkSingletonUITests.m */,
+				00D8986E1E78C83D002BC48F /* Info.plist */,
+			);
+			path = CooperAFNetworkSingletonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00D898431E78C83D002BC48F /* CooperAFNetworkSingleton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D898711E78C83D002BC48F /* Build configuration list for PBXNativeTarget "CooperAFNetworkSingleton" */;
+			buildPhases = (
+				00D898401E78C83D002BC48F /* Sources */,
+				00D898411E78C83D002BC48F /* Frameworks */,
+				00D898421E78C83D002BC48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CooperAFNetworkSingleton;
+			productName = CooperAFNetworkSingleton;
+			productReference = 00D898441E78C83D002BC48F /* CooperAFNetworkSingleton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00D8985C1E78C83D002BC48F /* CooperAFNetworkSingletonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D898741E78C83D002BC48F /* Build configuration list for PBXNativeTarget "CooperAFNetworkSingletonTests" */;
+			buildPhases = (
+				00D898591E78C83D002BC48F /* Sources */,
+				00D8985A1E78C83D002BC48F /* Frameworks */,
+				00D8985B1E78C83D002BC48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00D8985F1E78C83D002BC48F /* PBXTargetDependency */,
+			);
+			name = CooperAFNetworkSingletonTests;
+			productName = CooperAFNetworkSingletonTests;
+			productReference = 00D8985D1E78C83D002BC48F /* CooperAFNetworkSingletonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00D898671E78C83D002BC48F /* CooperAFNetworkSingletonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D898771E78C83D002BC48F /* Build configuration list for PBXNativeTarget "CooperAFNetworkSingletonUITests" */;
+			buildPhases = (
+				00D898641E78C83D002BC48F /* Sources */,
+				00D898651E78C83D002BC48F /* Frameworks */,
+				00D898661E78C83D002BC48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00D8986A1E78C83D002BC48F /* PBXTargetDependency */,
+			);
+			name = CooperAFNetworkSingletonUITests;
+			productName = CooperAFNetworkSingletonUITests;
+			productReference = 00D898681E78C83D002BC48F /* CooperAFNetworkSingletonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00D8983C1E78C83D002BC48F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Cooper;
+				TargetAttributes = {
+					00D898431E78C83D002BC48F = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = Q6P9ZG56S5;
+						ProvisioningStyle = Automatic;
+					};
+					00D8985C1E78C83D002BC48F = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = Q6P9ZG56S5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 00D898431E78C83D002BC48F;
+					};
+					00D898671E78C83D002BC48F = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = Q6P9ZG56S5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 00D898431E78C83D002BC48F;
+					};
+				};
+			};
+			buildConfigurationList = 00D8983F1E78C83D002BC48F /* Build configuration list for PBXProject "CooperAFNetworkSingleton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00D8983B1E78C83D002BC48F;
+			productRefGroup = 00D898451E78C83D002BC48F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00D898431E78C83D002BC48F /* CooperAFNetworkSingleton */,
+				00D8985C1E78C83D002BC48F /* CooperAFNetworkSingletonTests */,
+				00D898671E78C83D002BC48F /* CooperAFNetworkSingletonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00D898421E78C83D002BC48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D898571E78C83D002BC48F /* LaunchScreen.storyboard in Resources */,
+				00D898541E78C83D002BC48F /* Assets.xcassets in Resources */,
+				00D898521E78C83D002BC48F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D8985B1E78C83D002BC48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D898661E78C83D002BC48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00D898401E78C83D002BC48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D8984F1E78C83D002BC48F /* ViewController.m in Sources */,
+				00D8984C1E78C83D002BC48F /* AppDelegate.m in Sources */,
+				00D898491E78C83D002BC48F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D898591E78C83D002BC48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D898621E78C83D002BC48F /* CooperAFNetworkSingletonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D898641E78C83D002BC48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D8986D1E78C83D002BC48F /* CooperAFNetworkSingletonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00D8985F1E78C83D002BC48F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00D898431E78C83D002BC48F /* CooperAFNetworkSingleton */;
+			targetProxy = 00D8985E1E78C83D002BC48F /* PBXContainerItemProxy */;
+		};
+		00D8986A1E78C83D002BC48F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00D898431E78C83D002BC48F /* CooperAFNetworkSingleton */;
+			targetProxy = 00D898691E78C83D002BC48F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00D898501E78C83D002BC48F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00D898511E78C83D002BC48F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00D898551E78C83D002BC48F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00D898561E78C83D002BC48F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00D8986F1E78C83D002BC48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00D898701E78C83D002BC48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00D898721E78C83D002BC48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q6P9ZG56S5;
+				INFOPLIST_FILE = CooperAFNetworkSingleton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cooper.CooperAFNetworkSingleton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00D898731E78C83D002BC48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q6P9ZG56S5;
+				INFOPLIST_FILE = CooperAFNetworkSingleton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cooper.CooperAFNetworkSingleton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		00D898751E78C83D002BC48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q6P9ZG56S5;
+				INFOPLIST_FILE = CooperAFNetworkSingletonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cooper.CooperAFNetworkSingletonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CooperAFNetworkSingleton.app/CooperAFNetworkSingleton";
+			};
+			name = Debug;
+		};
+		00D898761E78C83D002BC48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q6P9ZG56S5;
+				INFOPLIST_FILE = CooperAFNetworkSingletonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cooper.CooperAFNetworkSingletonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CooperAFNetworkSingleton.app/CooperAFNetworkSingleton";
+			};
+			name = Release;
+		};
+		00D898781E78C83D002BC48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Q6P9ZG56S5;
+				INFOPLIST_FILE = CooperAFNetworkSingletonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cooper.CooperAFNetworkSingletonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CooperAFNetworkSingleton;
+			};
+			name = Debug;
+		};
+		00D898791E78C83D002BC48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Q6P9ZG56S5;
+				INFOPLIST_FILE = CooperAFNetworkSingletonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cooper.CooperAFNetworkSingletonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CooperAFNetworkSingleton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00D8983F1E78C83D002BC48F /* Build configuration list for PBXProject "CooperAFNetworkSingleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D8986F1E78C83D002BC48F /* Debug */,
+				00D898701E78C83D002BC48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00D898711E78C83D002BC48F /* Build configuration list for PBXNativeTarget "CooperAFNetworkSingleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D898721E78C83D002BC48F /* Debug */,
+				00D898731E78C83D002BC48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00D898741E78C83D002BC48F /* Build configuration list for PBXNativeTarget "CooperAFNetworkSingletonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D898751E78C83D002BC48F /* Debug */,
+				00D898761E78C83D002BC48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00D898771E78C83D002BC48F /* Build configuration list for PBXNativeTarget "CooperAFNetworkSingletonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D898781E78C83D002BC48F /* Debug */,
+				00D898791E78C83D002BC48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00D8983C1E78C83D002BC48F /* Project object */;
+}
