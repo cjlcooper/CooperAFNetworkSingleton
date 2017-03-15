@@ -1,2 +1,2 @@
 # CooperAFNetworkSingleton
-AF network framework based on a single package
+A network framework based on AFNetworking
